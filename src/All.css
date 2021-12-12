@@ -573,6 +573,78 @@ body {
   display: none;
 }
 
+/* * ================= FAQ PAGE ================================ */
+.faqContainer{
+  background-color: #231f20;
+  padding: 8vw;
+}
+
+.faqContainer p{
+  color: var(--secondary);
+  margin-bottom: 0;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 3px;
+}
+
+.faqContainer h1{
+  color: #fff;
+}
+
+.accordion{
+  margin-top: 3vw;
+}
+
+.accordion-button:not(.collapsed) {
+  color: var(--secondary);
+  background-color: var(--primary);
+  box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+
+button.accordion-button{
+  font-weight: 500;
+}
+
+
+/* *==================== ABout us page ==================== */
+.aboutContainer{
+  padding: 8vw;
+  background-color: #231f20;
+  color: #fff;
+}
+
+.aboutContainer h5{
+  margin-bottom: 2px;
+  color: var(--secondary);
+  letter-spacing: 3px;
+}
+
+.aboutSec{
+  margin-top: 20vh;
+}
+
+.aboutSec img{
+
+  max-width: 35vw;
+}
+
+.aboutSec{
+  display: flex;
+  gap:10vw;
+}
+
+.aboutTulisan{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.aboutTulisan h2{
+  font-size: 36px;
+  font-weight: 600;
+}
+
+
 /* * ======================================== Admin Page ================================================== */
 /* ? Drawer Component */
 .drawer {

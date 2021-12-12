@@ -31,7 +31,7 @@ function App() {
 
   return (
     <BookContext.Provider value={{isEditBook, setIsEditBook, bookData, setBookData, ebookData, setEbookData}}>
-    <Router>
+    <Router basename="/index.html">
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
